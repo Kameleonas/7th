@@ -1,0 +1,30 @@
+body{
+    height: 95vh;
+    width: auto;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+.colideBox{
+    width: 50vw;
+    height: 20%;
+}
+.menu{
+    background-color: rgb(238, 191, 63);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1vw;
+}
+.menu a{
+    justify-self: space-between;
+}
